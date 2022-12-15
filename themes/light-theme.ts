@@ -8,7 +8,7 @@ export const LightTheme = createTheme({
             default: grey[300]
         },
         primary: {
-            main: '#4a148c'
+            main: '#7743DB'
         },
         secondary: {
             main: '#19857b'
@@ -18,7 +18,14 @@ export const LightTheme = createTheme({
         },
     },
     components: {
-        
+        MuiAppBar: {
+            defaultProps: {},
+            styleOverrides: {
+                root: {
+                    backgroundColor: '#7743DB'
+                }
+            },
+        }
     }
 })
 
