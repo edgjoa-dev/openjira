@@ -1,8 +1,9 @@
+import { Typography } from "@mui/material";
 
 export default function Home() {
   return (
     <div>
-      <h1>Proyecto Open Jira</h1>
+      <Typography variant="h1">Open Jira</Typography>
     </div>
   )
 }
