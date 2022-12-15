@@ -14,8 +14,8 @@ export const Navbar = () => {
                 edge='start'
             >
                 <MenuOutlined />
-                <Typography variant="h6" sx={{ marginLeft: '10px' }}> OpenJira </Typography>
             </IconButton>
+                <Typography variant="h6" sx={{ marginLeft: '10px' }}> OpenJira </Typography>
         </Toolbar>
     </AppBar>
     )
